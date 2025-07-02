@@ -1,0 +1,66 @@
+_____________________
+ML (Pandas) Class 1 :
+_____________________
+
+Pandas :
+
+it is a data processing library...
+pan da --> panel data = panda
+
+It is a Python library used for working with datasets from different Sources/ Databases.
+
+It has functiions for analyzing, cleaning, exploring, and manipulating data.
+
+Pandas can clean messy data sets, 
+and make them readable and relevant.
+
+Relevant data is very important in data science.
+
+
+Advantages :
+
+1. Fast and efficient for manipulating and analyzing data.
+2. Data from different files objects can be loaded.
+3. Easy handling of missing data (represented as NaN).
+
+
+Two data types :
+
+1. Series data type:
+A Pandas series is like a column in a table.
+It is a one-dimensional array holding data of any type.
+
+2. DataFrame data type:
+Data sets in Pandas are ususally multi-dimensional tables, 
+2 dimensional = rows & columns
+Series is like a column, a DataFrame is the whole table.
+
+
+import pandas as pd
+lis = [1,7,2]
+seri = pd.Series(lis)
+print(seri)
+
+
+import pandas
+
+mydataset = {
+    'name':["ram","shyam","sita"],
+    'age':[3,7,2]
+}
+
+# example ---->
+myvar = pandas.DataFrame(mydataset)
+print(myvar)
+
+
+import pandas
+mydataset = {
+    'name':["ram","shyam","sita"],
+    'age':[3,7,2],
+    'city':['Maha','Bang','Hyd']
+}
+
+# example ---->
+myvar = pandas.DataFrame(mydataset)
+print(myvar)
